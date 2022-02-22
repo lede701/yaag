@@ -1,0 +1,807 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{3383654a-6473-4be9-b1e1-86caafc48f1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Items">
+      <UniqueIdentifier>{ed530858-3b55-4d4c-971f-28ab843b05d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Items\Armor">
+      <UniqueIdentifier>{6d4070bc-fed5-4679-a726-691bbaba08ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zaxis">
+      <UniqueIdentifier>{0d381bf9-6924-4fae-a04d-4f2748d8af19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zaxis\Engine">
+      <UniqueIdentifier>{03aca98c-a4a5-488c-b00c-d1fbb42aec5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zaxis\Engine\Data">
+      <UniqueIdentifier>{b024792f-ed56-4e72-8f7e-bc1557c19431}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zaxis\Commands">
+      <UniqueIdentifier>{59b8d38c-5c87-4831-8d13-02c6436c545f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zaxis\Controllers">
+      <UniqueIdentifier>{9f62b1e7-2340-4f89-82bf-01187e8b9f6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zaxis\Entity">
+      <UniqueIdentifier>{0a82cc56-1ee2-4ded-b1bb-435ff5867ae3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Data">
+      <UniqueIdentifier>{ec17c3b9-e3c5-4308-9a83-4ae546055965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Items\Weapons">
+      <UniqueIdentifier>{6177ef1c-2f8e-415f-af70-d8022033332c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Entity">
+      <UniqueIdentifier>{0cec9a1d-bfaf-4863-883e-48c718c20cca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Graphics">
+      <UniqueIdentifier>{b3894d6d-edfc-419f-8910-e6bc8c0a9115}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zaxis\Error">
+      <UniqueIdentifier>{1ccb0778-b54b-4df6-812a-621f5c0c993e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zaxis\Logging">
+      <UniqueIdentifier>{2a6e2b73-e959-4d63-bc7f-9530ba28a4bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zaxis\Network">
+      <UniqueIdentifier>{0ac0431c-91dd-4d10-9a82-6d1c80378465}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Graphics\Menus">
+      <UniqueIdentifier>{f02f97c5-2892-4517-af3c-d6c1c00031d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zaxis\Core">
+      <UniqueIdentifier>{814e1cd4-3d9b-443d-b4e1-8c1840b9379e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zaxis\Sound">
+      <UniqueIdentifier>{10b406bb-08ac-4841-ac92-92bf6270894d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Monsters">
+      <UniqueIdentifier>{7aad5a9c-444c-438c-b09b-05a69218364c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Monsters\Entities">
+      <UniqueIdentifier>{0d2a20ac-d500-4a48-9f5f-d334a597c65c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Entity\Monsters">
+      <UniqueIdentifier>{35bd8c94-4e13-4957-8c84-fc56d567aeaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Entity\Monsters\AI">
+      <UniqueIdentifier>{d9d1ae02-99c5-4b36-82fa-f4ee4f66b608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zaxis\Math">
+      <UniqueIdentifier>{7756e590-8230-42a2-ab82-ebb9d192ae06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zaxis\Graphics">
+      <UniqueIdentifier>{a42b22eb-873c-4e88-91c8-2ab47abe5367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zaxis\Graphics\ConGraphicsData">
+      <UniqueIdentifier>{d20e0e09-88dc-4e20-81c0-e7dea7a59d04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Items\Projectile">
+      <UniqueIdentifier>{66867d08-00fa-4d2c-a93f-5d93a76b174c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zaxis\Engines">
+      <UniqueIdentifier>{a42a0d0f-6368-455b-9cb4-3846c145cfdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Controllers">
+      <UniqueIdentifier>{75284116-8bcf-42b6-92d0-9ec71a30586e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Player">
+      <UniqueIdentifier>{d3b6abf3-9bd5-4da6-90dd-b67017f50f2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Commands">
+      <UniqueIdentifier>{d774e8b0-8472-4860-99fc-8ddd5f3277e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Field">
+      <UniqueIdentifier>{4483f316-4052-4265-9bf5-d50d747e3547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Graphics\Language">
+      <UniqueIdentifier>{3c82701f-749c-4c09-a0c7-9fca88451980}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\File">
+      <UniqueIdentifier>{d5707086-dc48-4657-af0c-766cc7501a51}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TheArena.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IArmor.cpp">
+      <Filter>Game\Items\Armor</Filter>
+    </ClCompile>
+    <ClCompile Include="IAttacker.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="AList.cpp">
+      <Filter>Zaxis\Engine\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="ICommand.cpp">
+      <Filter>Zaxis\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="IController.cpp">
+      <Filter>Zaxis\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="ICreateMonster.cpp">
+      <Filter>Zaxis\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="IData.cpp">
+      <Filter>Game\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="IStateManager.cpp">
+      <Filter>Zaxis\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="IWeapons.cpp">
+      <Filter>Game\Items\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="IDirection.cpp">
+      <Filter>Game\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="IEngine.cpp">
+      <Filter>Zaxis\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="IEntity.cpp">
+      <Filter>Zaxis\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="IEntityManager.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="IError.cpp">
+      <Filter>Zaxis\Error</Filter>
+    </ClCompile>
+    <ClCompile Include="IFieldExit.cpp">
+      <Filter>Game\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="IFriendlyEntity.cpp">
+      <Filter>Game\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="ILogger.cpp">
+      <Filter>Zaxis\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="IMenuMonster.cpp">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="IMenuScreen.cpp">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="IMenuState.cpp">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="IMover.cpp">
+      <Filter>Zaxis\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="INetCrypto.cpp">
+      <Filter>Zaxis\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="ISocket.cpp">
+      <Filter>Zaxis\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="ISound.cpp">
+      <Filter>Zaxis\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterData.cpp">
+      <Filter>Game\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterData.cpp">
+      <Filter>Game\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterEntity.cpp">
+      <Filter>Game\Monsters\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterMenu.cpp">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="Armor.cpp">
+      <Filter>Game\Items\Armor</Filter>
+    </ClCompile>
+    <ClCompile Include="ArmorData.cpp">
+      <Filter>Game\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="FileLogger.cpp">
+      <Filter>Zaxis\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO.cpp">
+      <Filter>Zaxis\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="FileUtilities.cpp">
+      <Filter>Zaxis\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerData.cpp">
+      <Filter>Game\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="AIMonster.cpp">
+      <Filter>Game\Entity\Monsters\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AIRanged.cpp">
+      <Filter>Game\Entity\Monsters\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AISight.cpp">
+      <Filter>Game\Entity\Monsters\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AITeleport.cpp">
+      <Filter>Game\Entity\Monsters\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2D.cpp">
+      <Filter>Zaxis\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Zaxis\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponData.cpp">
+      <Filter>Game\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Game\Items\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Zaxis\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="NullGraphics.cpp">
+      <Filter>Zaxis\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="NullEntity.cpp">
+      <Filter>Zaxis\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="NullCrypto.cpp">
+      <Filter>Zaxis\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="NullController.cpp">
+      <Filter>Zaxis\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="NullCommand.cpp">
+      <Filter>Zaxis\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="NullSound.cpp">
+      <Filter>Zaxis\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="NullObject.cpp">
+      <Filter>Zaxis\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="NullLogger.cpp">
+      <Filter>Zaxis\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleLogger.cpp">
+      <Filter>Zaxis\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="ConObject.cpp">
+      <Filter>Zaxis\Graphics\ConGraphicsData</Filter>
+    </ClCompile>
+    <ClCompile Include="ConGraphics.cpp">
+      <Filter>Zaxis\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Game\Items\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="IGraphics.cpp">
+      <Filter>Zaxis\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuSystem.cpp">
+      <Filter>Game\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardController.cpp">
+      <Filter>Zaxis\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardState.cpp">
+      <Filter>Zaxis\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>Zaxis\Engines</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManager.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMover.cpp">
+      <Filter>Game\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMenu.cpp">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerHelper.cpp">
+      <Filter>Game\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerEntity.cpp">
+      <Filter>Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCreator.cpp">
+      <Filter>Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCommand.cpp">
+      <Filter>Game\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldBrick.cpp">
+      <Filter>Game\Field</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldGroup.cpp">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseMenu.cpp">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseSelector.cpp">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="CtrlMenu.cpp">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="GameField.cpp">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackCommand.cpp">
+      <Filter>Game\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMessages.cpp">
+      <Filter>Game\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMenu.cpp">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="GetInput.cpp">
+      <Filter>Zaxis\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver.cpp">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="NoRevival.cpp">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="StrToHash.cpp">
+      <Filter>Zaxis\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="MConfig.cpp">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="MFleeWin.cpp">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="MHomeCommands.cpp">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="MHomeGroup.cpp">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="MLevelUp.cpp">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="MLogin.cpp">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="fLogin.cpp">
+      <Filter>Game\File</Filter>
+    </ClCompile>
+    <ClCompile Include="StoreMenu.cpp">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="MPlayerInfo.cpp">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="MPlayerList.cpp">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="MSelect.cpp">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="MSelectGroup.cpp">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="MWin.cpp">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="MTest.cpp">
+      <Filter>Zaxis\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="StringToChar.cpp">
+      <Filter>Zaxis\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketException.cpp">
+      <Filter>Zaxis\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="NetController.cpp">
+      <Filter>Zaxis\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="NetSocket.cpp">
+      <Filter>Zaxis\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="NetCrypt.cpp">
+      <Filter>Zaxis\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="IEntityToEngine.cpp">
+      <Filter>Zaxis\Engines</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine.cpp">
+      <Filter>Zaxis\Engines</Filter>
+    </ClCompile>
+    <ClCompile Include="XAudioSound.cpp">
+      <Filter>Zaxis\Engines</Filter>
+    </ClCompile>
+    <ClCompile Include="IDrawField.cpp">
+      <Filter>Game\Graphics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AList.h">
+      <Filter>Zaxis\Engine\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="IArmor.h">
+      <Filter>Game\Items\Armor</Filter>
+    </ClInclude>
+    <ClInclude Include="IAttacker.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="ICommand.h">
+      <Filter>Zaxis\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="IController.h">
+      <Filter>Zaxis\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="ICreateMonster.h">
+      <Filter>Zaxis\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="IData.h">
+      <Filter>Game\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemList.h">
+      <Filter>Game\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="IStateManager.h">
+      <Filter>Zaxis\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="IUpdater.h">
+      <Filter>Zaxis\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="IWeapons.h">
+      <Filter>Game\Items\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="IDirection.h">
+      <Filter>Game\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="IEngine.h">
+      <Filter>Zaxis\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="IEntity.h">
+      <Filter>Zaxis\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="IEntityManager.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="IError.h">
+      <Filter>Zaxis\Error</Filter>
+    </ClInclude>
+    <ClInclude Include="IFieldExit.h">
+      <Filter>Game\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="IFriendlyEntity.h">
+      <Filter>Game\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="ILogger.h">
+      <Filter>Zaxis\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="ILogin.h">
+      <Filter>Zaxis\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="IMenuMonster.h">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="IMenuScreen.h">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="IMenuState.h">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="IMover.h">
+      <Filter>Zaxis\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="INetCrypto.h">
+      <Filter>Zaxis\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="ISetFieldGfx.h">
+      <Filter>Game\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="ISocket.h">
+      <Filter>Zaxis\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="ISound.h">
+      <Filter>Zaxis\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterData.h">
+      <Filter>Game\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Loot.h">
+      <Filter>Game\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterData.h">
+      <Filter>Game\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterEntity.h">
+      <Filter>Game\Monsters\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterEnum.h">
+      <Filter>Game\Monsters\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterMenu.h">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="Armor.h">
+      <Filter>Game\Items\Armor</Filter>
+    </ClInclude>
+    <ClInclude Include="ArmorData.h">
+      <Filter>Game\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="FileLogger.h">
+      <Filter>Zaxis\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="FileData.h">
+      <Filter>Zaxis</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO.h">
+      <Filter>Zaxis\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="FileUtilities.h">
+      <Filter>Zaxis\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerData.h">
+      <Filter>Game\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelData.h">
+      <Filter>Game\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="AIMonster.h">
+      <Filter>Game\Entity\Monsters\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AIRanged.h">
+      <Filter>Game\Entity\Monsters\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AISight.h">
+      <Filter>Game\Entity\Monsters\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AITeleport.h">
+      <Filter>Game\Entity\Monsters\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>Zaxis\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementData.h">
+      <Filter>Game\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="zmath.h">
+      <Filter>Zaxis\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>Zaxis\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Zaxis\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponData.h">
+      <Filter>Game\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Game\Items\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityType.h">
+      <Filter>Zaxis\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Zaxis\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="NullGraphics.h">
+      <Filter>Zaxis\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="NullEntity.h">
+      <Filter>Zaxis\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="NullCrypto.h">
+      <Filter>Zaxis\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="NullController.h">
+      <Filter>Zaxis\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="NullCommand.h">
+      <Filter>Zaxis\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="DataLocation.h">
+      <Filter>Game\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="NullSound.h">
+      <Filter>Zaxis\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="NullObject.h">
+      <Filter>Zaxis\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="NullLogger.h">
+      <Filter>Zaxis\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="NullDevices.h">
+      <Filter>Zaxis</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleLogger.h">
+      <Filter>Zaxis\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="ConObject.h">
+      <Filter>Zaxis\Graphics\ConGraphicsData</Filter>
+    </ClInclude>
+    <ClInclude Include="ConGraphics.h">
+      <Filter>Zaxis\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="ConColor.h">
+      <Filter>Zaxis\Graphics\ConGraphicsData</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxType.h">
+      <Filter>Zaxis\Graphics\ConGraphicsData</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Game\Items\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="gamedefs.h">
+      <Filter>Zaxis</Filter>
+    </ClInclude>
+    <ClInclude Include="IGraphics.h">
+      <Filter>Zaxis\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuSystem.h">
+      <Filter>Game\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardController.h">
+      <Filter>Zaxis\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardState.h">
+      <Filter>Zaxis\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine.h">
+      <Filter>Zaxis\Engines</Filter>
+    </ClInclude>
+    <ClInclude Include="stdxgame.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerType.h">
+      <Filter>Game\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMover.h">
+      <Filter>Game\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMenu.h">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerHelper.h">
+      <Filter>Game\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerEntity.h">
+      <Filter>Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCreator.h">
+      <Filter>Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCommand.h">
+      <Filter>Game\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldBrick.h">
+      <Filter>Game\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldGroup.h">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseMenu.h">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseSelector.h">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="CtrlMenu.h">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="en-pack.h">
+      <Filter>Game\Graphics\Language</Filter>
+    </ClInclude>
+    <ClInclude Include="languagepack.h">
+      <Filter>Game\Graphics\Language</Filter>
+    </ClInclude>
+    <ClInclude Include="GameField.h">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackCommand.h">
+      <Filter>Game\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMessages.h">
+      <Filter>Game\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMenu.h">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="GetInput.h">
+      <Filter>Zaxis\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.h">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="NoRevival.h">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="StrToHash.h">
+      <Filter>Zaxis\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="MConfig.h">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="MFleeWin.h">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="MHomeCommands.h">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="MHomeGroup.h">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="MLevelUp.h">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="MLogin.h">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="fLogin.h">
+      <Filter>Game\File</Filter>
+    </ClInclude>
+    <ClInclude Include="StoreMenu.h">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="MPlayerInfo.h">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="MPlayerList.h">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="MSelect.h">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="MSelectGroup.h">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="MWin.h">
+      <Filter>Game\Graphics\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="MTest.h">
+      <Filter>Zaxis\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="StringToChar.h">
+      <Filter>Zaxis\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketException.h">
+      <Filter>Zaxis\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="NetController.h">
+      <Filter>Zaxis\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="NetSocket.h">
+      <Filter>Zaxis\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="NetCrypt.h">
+      <Filter>Zaxis\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="IEntityToEngine.h">
+      <Filter>Zaxis\Engines</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine.h">
+      <Filter>Zaxis\Engines</Filter>
+    </ClInclude>
+    <ClInclude Include="XAudioSound.h">
+      <Filter>Zaxis\Engines</Filter>
+    </ClInclude>
+    <ClInclude Include="IDrawField.h">
+      <Filter>Game\Graphics</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

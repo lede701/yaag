@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{f0d765f7-0adc-45d3-9a79-d49641510c34}</ProjectGuid>
+    <RootNamespace>TheArena</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AIMonster.cpp" />
+    <ClCompile Include="AIRanged.cpp" />
+    <ClCompile Include="AISight.cpp" />
+    <ClCompile Include="AITeleport.cpp" />
+    <ClCompile Include="AList.cpp" />
+    <ClCompile Include="Armor.cpp" />
+    <ClCompile Include="ArmorData.cpp" />
+    <ClCompile Include="AttackCommand.cpp" />
+    <ClCompile Include="BaseMenu.cpp" />
+    <ClCompile Include="BaseSelector.cpp" />
+    <ClCompile Include="CharacterData.cpp" />
+    <ClCompile Include="ConGraphics.cpp" />
+    <ClCompile Include="ConObject.cpp" />
+    <ClCompile Include="ConsoleLogger.cpp" />
+    <ClCompile Include="CtrlMenu.cpp" />
+    <ClCompile Include="EntityManager.cpp" />
+    <ClCompile Include="FieldBrick.cpp" />
+    <ClCompile Include="FieldGroup.cpp" />
+    <ClCompile Include="FileIO.cpp" />
+    <ClCompile Include="FileLogger.cpp" />
+    <ClCompile Include="FileUtilities.cpp" />
+    <ClCompile Include="fLogin.cpp" />
+    <ClCompile Include="GameEngine.cpp" />
+    <ClCompile Include="GameField.cpp" />
+    <ClCompile Include="GameMenu.cpp" />
+    <ClCompile Include="GameMessages.cpp" />
+    <ClCompile Include="GameOver.cpp" />
+    <ClCompile Include="GetInput.cpp" />
+    <ClCompile Include="IArmor.cpp" />
+    <ClCompile Include="IAttacker.cpp" />
+    <ClCompile Include="ICommand.cpp" />
+    <ClCompile Include="IController.cpp" />
+    <ClCompile Include="ICreateMonster.cpp" />
+    <ClCompile Include="IData.cpp" />
+    <ClCompile Include="IDirection.cpp" />
+    <ClCompile Include="IDrawField.cpp" />
+    <ClCompile Include="IEngine.cpp" />
+    <ClCompile Include="IEntity.cpp" />
+    <ClCompile Include="IEntityManager.cpp" />
+    <ClCompile Include="IEntityToEngine.cpp" />
+    <ClCompile Include="IError.cpp" />
+    <ClCompile Include="IFieldExit.cpp" />
+    <ClCompile Include="IFriendlyEntity.cpp" />
+    <ClCompile Include="IGraphics.cpp" />
+    <ClCompile Include="ILogger.cpp" />
+    <ClCompile Include="IMenuMonster.cpp" />
+    <ClCompile Include="IMenuScreen.cpp" />
+    <ClCompile Include="IMenuState.cpp" />
+    <ClCompile Include="IMover.cpp" />
+    <ClCompile Include="INetCrypto.cpp" />
+    <ClCompile Include="ISocket.cpp" />
+    <ClCompile Include="ISound.cpp" />
+    <ClCompile Include="IStateManager.cpp" />
+    <ClCompile Include="IWeapons.cpp" />
+    <ClCompile Include="KeyboardController.cpp" />
+    <ClCompile Include="KeyboardState.cpp" />
+    <ClCompile Include="MConfig.cpp" />
+    <ClCompile Include="MenuSystem.cpp" />
+    <ClCompile Include="MFleeWin.cpp" />
+    <ClCompile Include="MHomeCommands.cpp" />
+    <ClCompile Include="MHomeGroup.cpp" />
+    <ClCompile Include="MLevelUp.cpp" />
+    <ClCompile Include="MLogin.cpp" />
+    <ClCompile Include="MonsterData.cpp" />
+    <ClCompile Include="MonsterEntity.cpp" />
+    <ClCompile Include="MonsterMenu.cpp" />
+    <ClCompile Include="MPlayerInfo.cpp" />
+    <ClCompile Include="MPlayerList.cpp" />
+    <ClCompile Include="MSelect.cpp" />
+    <ClCompile Include="MSelectGroup.cpp" />
+    <ClCompile Include="MTest.cpp" />
+    <ClCompile Include="MWin.cpp" />
+    <ClCompile Include="NetController.cpp" />
+    <ClCompile Include="NetCrypt.cpp" />
+    <ClCompile Include="NetSocket.cpp" />
+    <ClCompile Include="NoRevival.cpp" />
+    <ClCompile Include="NullCommand.cpp" />
+    <ClCompile Include="NullController.cpp" />
+    <ClCompile Include="NullCrypto.cpp" />
+    <ClCompile Include="NullEntity.cpp" />
+    <ClCompile Include="NullGraphics.cpp" />
+    <ClCompile Include="NullLogger.cpp" />
+    <ClCompile Include="NullObject.cpp" />
+    <ClCompile Include="NullSound.cpp" />
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="PlayerCommand.cpp" />
+    <ClCompile Include="PlayerCreator.cpp" />
+    <ClCompile Include="PlayerData.cpp" />
+    <ClCompile Include="PlayerEntity.cpp" />
+    <ClCompile Include="PlayerHelper.cpp" />
+    <ClCompile Include="PlayerMenu.cpp" />
+    <ClCompile Include="PlayerMover.cpp" />
+    <ClCompile Include="Projectile.cpp" />
+    <ClCompile Include="Random.cpp" />
+    <ClCompile Include="SocketException.cpp" />
+    <ClCompile Include="SoundEngine.cpp" />
+    <ClCompile Include="StoreMenu.cpp" />
+    <ClCompile Include="StringToChar.cpp" />
+    <ClCompile Include="StrToHash.cpp" />
+    <ClCompile Include="TheArena.cpp" />
+    <ClCompile Include="Vector2D.cpp" />
+    <ClCompile Include="Weapon.cpp" />
+    <ClCompile Include="WeaponData.cpp" />
+    <ClCompile Include="XAudioSound.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AIMonster.h" />
+    <ClInclude Include="AIRanged.h" />
+    <ClInclude Include="AISight.h" />
+    <ClInclude Include="AITeleport.h" />
+    <ClInclude Include="AList.h" />
+    <ClInclude Include="Armor.h" />
+    <ClInclude Include="ArmorData.h" />
+    <ClInclude Include="AttackCommand.h" />
+    <ClInclude Include="BaseMenu.h" />
+    <ClInclude Include="BaseSelector.h" />
+    <ClInclude Include="BoxType.h" />
+    <ClInclude Include="CharacterData.h" />
+    <ClInclude Include="ConColor.h" />
+    <ClInclude Include="ConGraphics.h" />
+    <ClInclude Include="ConObject.h" />
+    <ClInclude Include="ConsoleLogger.h" />
+    <ClInclude Include="CtrlMenu.h" />
+    <ClInclude Include="DataLocation.h" />
+    <ClInclude Include="en-pack.h" />
+    <ClInclude Include="EntityManager.h" />
+    <ClInclude Include="EntityType.h" />
+    <ClInclude Include="FieldBrick.h" />
+    <ClInclude Include="FieldGroup.h" />
+    <ClInclude Include="FileData.h" />
+    <ClInclude Include="FileIO.h" />
+    <ClInclude Include="FileLogger.h" />
+    <ClInclude Include="FileUtilities.h" />
+    <ClInclude Include="fLogin.h" />
+    <ClInclude Include="gamedefs.h" />
+    <ClInclude Include="GameEngine.h" />
+    <ClInclude Include="GameField.h" />
+    <ClInclude Include="GameMenu.h" />
+    <ClInclude Include="GameMessages.h" />
+    <ClInclude Include="GameOver.h" />
+    <ClInclude Include="GetInput.h" />
+    <ClInclude Include="IArmor.h" />
+    <ClInclude Include="IAttacker.h" />
+    <ClInclude Include="ICommand.h" />
+    <ClInclude Include="IController.h" />
+    <ClInclude Include="ICreateMonster.h" />
+    <ClInclude Include="IData.h" />
+    <ClInclude Include="IDirection.h" />
+    <ClInclude Include="IDrawField.h" />
+    <ClInclude Include="IEngine.h" />
+    <ClInclude Include="IEntity.h" />
+    <ClInclude Include="IEntityManager.h" />
+    <ClInclude Include="IEntityToEngine.h" />
+    <ClInclude Include="IError.h" />
+    <ClInclude Include="IFieldExit.h" />
+    <ClInclude Include="IFriendlyEntity.h" />
+    <ClInclude Include="IGraphics.h" />
+    <ClInclude Include="ILogger.h" />
+    <ClInclude Include="ILogin.h" />
+    <ClInclude Include="IMenuMonster.h" />
+    <ClInclude Include="IMenuScreen.h" />
+    <ClInclude Include="IMenuState.h" />
+    <ClInclude Include="IMover.h" />
+    <ClInclude Include="INetCrypto.h" />
+    <ClInclude Include="ISetFieldGfx.h" />
+    <ClInclude Include="ISocket.h" />
+    <ClInclude Include="ISound.h" />
+    <ClInclude Include="IStateManager.h" />
+    <ClInclude Include="ItemList.h" />
+    <ClInclude Include="IUpdater.h" />
+    <ClInclude Include="IWeapons.h" />
+    <ClInclude Include="KeyboardController.h" />
+    <ClInclude Include="KeyboardState.h" />
+    <ClInclude Include="languagepack.h" />
+    <ClInclude Include="LevelData.h" />
+    <ClInclude Include="Loot.h" />
+    <ClInclude Include="MConfig.h" />
+    <ClInclude Include="MenuSystem.h" />
+    <ClInclude Include="MFleeWin.h" />
+    <ClInclude Include="MHomeCommands.h" />
+    <ClInclude Include="MHomeGroup.h" />
+    <ClInclude Include="MLevelUp.h" />
+    <ClInclude Include="MLogin.h" />
+    <ClInclude Include="MonsterData.h" />
+    <ClInclude Include="MonsterEntity.h" />
+    <ClInclude Include="MonsterEnum.h" />
+    <ClInclude Include="MonsterMenu.h" />
+    <ClInclude Include="MovementData.h" />
+    <ClInclude Include="MPlayerInfo.h" />
+    <ClInclude Include="MPlayerList.h" />
+    <ClInclude Include="MSelect.h" />
+    <ClInclude Include="MSelectGroup.h" />
+    <ClInclude Include="MTest.h" />
+    <ClInclude Include="MWin.h" />
+    <ClInclude Include="NetController.h" />
+    <ClInclude Include="NetCrypt.h" />
+    <ClInclude Include="NetSocket.h" />
+    <ClInclude Include="NoRevival.h" />
+    <ClInclude Include="NullCommand.h" />
+    <ClInclude Include="NullController.h" />
+    <ClInclude Include="NullCrypto.h" />
+    <ClInclude Include="NullDevices.h" />
+    <ClInclude Include="NullEntity.h" />
+    <ClInclude Include="NullGraphics.h" />
+    <ClInclude Include="NullLogger.h" />
+    <ClInclude Include="NullObject.h" />
+    <ClInclude Include="NullSound.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="PlayerCommand.h" />
+    <ClInclude Include="PlayerCreator.h" />
+    <ClInclude Include="PlayerData.h" />
+    <ClInclude Include="PlayerEntity.h" />
+    <ClInclude Include="PlayerHelper.h" />
+    <ClInclude Include="PlayerMenu.h" />
+    <ClInclude Include="PlayerMover.h" />
+    <ClInclude Include="PlayerType.h" />
+    <ClInclude Include="Projectile.h" />
+    <ClInclude Include="Random.h" />
+    <ClInclude Include="Rect.h" />
+    <ClInclude Include="SocketException.h" />
+    <ClInclude Include="SoundEngine.h" />
+    <ClInclude Include="stdxgame.h" />
+    <ClInclude Include="StoreMenu.h" />
+    <ClInclude Include="StringToChar.h" />
+    <ClInclude Include="StrToHash.h" />
+    <ClInclude Include="Vector2D.h" />
+    <ClInclude Include="Weapon.h" />
+    <ClInclude Include="WeaponData.h" />
+    <ClInclude Include="XAudioSound.h" />
+    <ClInclude Include="zmath.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
