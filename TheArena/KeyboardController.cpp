@@ -71,18 +71,20 @@ namespace Zaxis{ namespace Controllers
 
 	void KeyboardController::PopState()
 	{
-		KeyboardState* state = keyState.front();
-		keyState.pop_front();
-		if (keyState.size() > 0)
-		{
-			currState = keyState.front();
-		}
-		else
-		{
-			currState = NULL;
-		}
+		if (keyState.size() > 0) {
+			KeyboardState* state = keyState.front();
+			keyState.pop_front();
+			if (keyState.size() > 0)
+			{
+				currState = keyState.front();
+			}
+			else
+			{
+				currState = NULL;
+			}
 
-		delete state;
+			delete state;
+		}
 	}
 
 	void KeyboardController::FlushStates()
